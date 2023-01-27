@@ -1,7 +1,6 @@
 import { galleryItems } from './gallery-items.js';
 // Change code below this line
 const galleryContainer = document.querySelector('.gallery');
-// const basicLightInstans = basicLightbox.create(``);
 let indexOfImage = -1;
 
 const arrOfGalleryItems = galleryItems.map(galleryItem => createGallaryItem(galleryItem));
